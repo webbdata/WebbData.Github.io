@@ -21,11 +21,12 @@ Write up for my Doordash project using Excel to gain insights from customer data
 
 ---
 #### [Education Analysis](https://www.linkedin.com/pulse/gaining-insights-education-data-visualization-video-webb-kimmel-in5ue/?trackingId=N8FwLq98TqiYbO7ezlY0Ag%3D%3D)
-[<img src="images/21 Days To Data Challenge What I've Learned Cover.png?raw=true"/>](https://www.linkedin.com/pulse/what-i-learned-21-days-data-avery-smith)
-In this case study from Data Analytics Accelerator, I was prompted to analyze the State of Massachusetts education data. The main focuses were:
+[<img src="images/Educational Insights.png?raw=true"/>](https://www.linkedin.com/pulse/gaining-insights-education-data-visualization-video-webb-kimmel-in5ue/?trackingId=N8FwLq98TqiYbO7ezlY0Ag%3D%3D)
+In this case study from Data Analytics Accelerator, I analyzed data from the Massachusetts Department of Education. The main focuses were:
 What schools are struggling the most?
 How does class size affect college admission?
-What are the top math schools in the state? 
+What are the top math schools in the state?
+Watch my video walkthrough of the Tableau dashboard I created to gain insights from this data.
 
 ---
 
