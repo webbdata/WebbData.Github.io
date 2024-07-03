@@ -14,7 +14,7 @@ Tolulope is the best
 For this project, I explored what a good analytics PowerPoint presentation should entail. It talks about main talking points, how to tie data to the business value, and much more. 
 
 ---
-#### [External Link Project]([https://www.linkedin.com/pulse/doordash-analysis-impact-promotional-campaigns-webb-kimmel-6hcqe/?trackingId=S%2FfcLLnMS4SnlsEXk3jgmw%3D%3D])
+#### [Doordash Analytics Using Excel]([https://www.linkedin.com/pulse/doordash-analysis-impact-promotional-campaigns-webb-kimmel-6hcqe/?trackingId=S%2FfcLLnMS4SnlsEXk3jgmw%3D%3D])
 [<img src="images/Doordash.png?raw=true"/>](https://www.linkedin.com/pulse/doordash-analysis-impact-promotional-campaigns-webb-kimmel-6hcqe/?trackingId=S%2FfcLLnMS4SnlsEXk3jgmw%3D%3D)
 Write up for my Doordash project using Excel to gain insights from customer data. 
 
