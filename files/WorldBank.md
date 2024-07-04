@@ -1,5 +1,15 @@
 # The World Bank Analysis <br>
 <img src="The World Bank.png?raw=true"/> <br>
 
-Living in the United States we don't often think about international development. But I feel that there is a good case to be made for aiding other countries in their development to help all people enjoy the things we do in the United States. The International Development Association (IDA) does just that. As part of The World Bank the IDA extends credits, grants, and guarentees to its member countries to help them acheive their goals. <br>
-How much money does the IDA grant to its members? Who is the biggest recipient of these funds? What are these funds being used for? I decided to pull the IDA's Statement of Credits and Grants to find out.
+Living in the United States we don't often think about international development. But I feel that there is a good case to be made for aiding other countries in their development to help all people enjoy the things we do in the United States. The International Development Association (IDA) does just that. As part of The World Bank the IDA extends credits, grants, and guarentees to its member countries to help them acheive their goals. <br><br>
+How much money does the IDA grant to its members? Who is the biggest recipient of these funds? What are these funds being used for? I decided to run some SQL queries on the IDA's Statement of Credits and Grants to find out. <br><br>
+
+### Here's What I Found <br>
+- The IDA has a total of 1,304,781 transactions
+- The total value due to the IDA in USD is $23,801,874,654,808.31, wow!
+- The highest amount due to the IDA totals $1,047,501,691.07 and transaction was issued to Ukraine
+- The lowest value transaction is with Mozambique valued at -$5.37
+- India holds the most transactions with 66,711
+- There are 6,162 transactions dedicated to the Project Name "Education II"
+- The average service charge rate is 0.79% with the highest rate being 7.09% and the lowest being .075%
+
