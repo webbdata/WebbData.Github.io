@@ -46,3 +46,9 @@ We saw that Ukraine has the highest value transactions, but I also wanted to kno
 ![Transactions by Country](wb_countrytrans.png) <br>
 ![Transactions by Country Results](wb_countrytranspic.png) <br><br>
 
+Finally I wanted to see what kind of projects these IDA funds are going to. We'll want to get a count of the transactions again, but this time we will group them by the "Project Name" attribute. We will put them in descending order again to see which projects have the most transactions. Check out the results: <br>
+#### Projects with the Most Transactions <br>
+![Transactions by Project](wb_projects.png) <br>
+![Transactions by Project Results](wb_projectspic.png) <br>
+The project name with the most transactions is "Education II". You'll also notice that three out of the top five projects are related to education. Seems like a worthwhile investment to me! <br><br>
+
