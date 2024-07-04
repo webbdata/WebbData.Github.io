@@ -6,11 +6,10 @@ How much money does the IDA grant to its members? Who is the biggest recipient o
 
 ### Here's What I Found <br>
 - The IDA has a total of 1,304,781 transactions
-- The total value due to the IDA in USD is $23,801,874,654,808.31, wow!
+- The total value due to the IDA in USD is $23,801,874,654,808.31, and the total value of money disbursed by the IDA is $43,884,459,907,899.07, wow!
 - The highest amount due to the IDA totals $1,047,501,691.07 and transaction was issued to Ukraine
 - India holds the most transactions with 66,711
 - There are 6,162 transactions dedicated to the Project Name "Education II"
-- The average service charge rate is 0.79% with the highest rate being 7.09% and the lowest being .075%
 <br><br>
 
 ### Dataset Details <br>
@@ -27,11 +26,14 @@ To get an overview of this data I needed to see how many rows we're dealing with
 ![Select Query](wb_selectall2.png) <br>
 ![Select Results](wb_selectallpic.png) <br><br>
 
-Next, I wanted to see what the total amount due to the IDA was. To do this we need to aggregate all the transations with a Select query, and SUM function. We are only concered with the column "Due to IDA (US$)", so we can leave out the rest of the columns. Here's the outcome: <br>
-#### Sum of All Transactions <br>
-![Sum Query](wb_sum2.png) <br>
-![Sum Results](wb_sumpic.png) <br><br>
-The total is a staggering $23,801,874,654,808.31. To me, it's encouraging to see so much aid going to developmental projects around the world, but where is this money going, and what is it being used for?<br><br>
+Next, I wanted to see what the total amount due to the IDA, and the total amount disbursed by the IDA. To do this we need to aggregate all the transations with a Select query, and SUM function. We are only concered with the columns "Due to IDA (US$)", and "Disbursed Amount (US$)" so we can leave out the rest of the columns. Here's the outcomes of those two queries: <br>
+#### Sum of All Transactions Due <br>
+![Sum of Amount Due](wb_sum2.png) <br>
+![Sum of Amount Due Results](wb_sumpic.png) <br>
+#### Sum of All Transaction Disbursed <br>
+![Sum of Disbursements](wb_sumdis.png) <br>
+![Sum of Disbursements Results](wb_sumdispic.png) <br>
+The totals are a staggering $23,801,874,654,808.31 due back to the IDA, and a total of $43,884,459,907,899.07 disbursed to member countries. To me, it's encouraging to see so much aid going to developmental projects around the world, but where is this money going, and what is it being used for?<br><br>
 
 Now it's time for the fun stuff. I wanted to find the highest single amount due to the IDA. For this we could use a simple MAX function with our select query, but for me this leaves out too much detail. I also wanted to know which country and region this transaction was associated with. Typing out "Due to IDA (US$)" over and over is too time comsuming. To get around this I used a SQL alias and changed the column name to "Due" for this query. This is what I got back from the data: <br>
 #### Largest Single Transaction <br>
