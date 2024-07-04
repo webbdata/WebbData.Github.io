@@ -32,7 +32,7 @@ Next, I wanted to see what the total amount due to the IDA, and the total amount
 ![Sum of Amount Due Results](wb_sumpic.png) <br>
 #### Sum of All Transaction Disbursed <br>
 ![Sum of Disbursements](wb_sumdis.png) <br>
-![Sum of Disbursements Results](wb_sumdispic.png) <br>
+![Sum of Disbursements Results](wb_sumdispic.png) <br><br>
 The totals are a staggering $23,801,874,654,808.31 due back to the IDA, and a total of $43,884,459,907,899.07 disbursed to member countries. To me, it's encouraging to see so much aid going to developmental projects around the world, but where is this money going, and what is it being used for?<br><br>
 
 Now it's time for the fun stuff. I wanted to find the highest single amount due to the IDA. For this we could use a simple MAX function with our select query, but for me this leaves out too much detail. I also wanted to know which country and region this transaction was associated with. Typing out "Due to IDA (US$)" over and over is too time comsuming. To get around this I used a SQL alias and changed the column name to "Due" for this query. This is what I got back from the data: <br>
@@ -52,3 +52,4 @@ Finally I wanted to see what kind of projects these IDA funds are going to. We'l
 ![Transactions by Project Results](wb_projectspic.png) <br>
 The project name with the most transactions is "Education II". You'll also notice that three out of the top five projects are related to education. Seems like a worthwhile investment to me! <br><br>
 
+## Investing in the Future <br>
