@@ -38,6 +38,5 @@ Now it's time for the fun stuff. I wanted to find the highest single amount due 
 #### Largest Single Transaction <br>
 ![Max Query](wb_max.png) <br>
 ![Max Results](wb_maxpic.png) <br>
-You'll notice that I didn't actually use a Max function in this query. To ensure that I was really seeing the highest result I used the ORDER BY statement and sorted the transactions in descending order. SQL will sort results in ascending order by default so I needed to add DESC to get my desired outcome. <br><br>
-
+You'll notice that I didn't actually use a Max function in this query. To ensure that I was really seeing the highest result I used the ORDER BY statement and sorted the transactions in descending order. SQL will sort results in ascending order by default so I needed to add DESC to get my desired outcome. These results were surprising. Not only does Ukraine have the highest single transaction, they actually have the highest 13 transactions! <br><br>
 
