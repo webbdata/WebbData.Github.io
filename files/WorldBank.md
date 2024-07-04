@@ -22,10 +22,10 @@ This dataset comes directly from The World Bank and the latest IDA Statement of 
 To get an overview of this data I needed to see how many rows we're dealing with, and what attributes are being collected. By using a simple Count query I discovered that our report has 1,304,781 rows. I then performed a Select all query to see all the attributes (columns) in the dataset. Because we are working with so much data I had to limit these results to 500 rows. See the queries and results below: <br>
 
 #### Count All Rows <br>
-![Count Query](wb_count.png) <br>
+![Count Query](wb_count2.png) <br>
 ![Count Results](wb_countallpic.png) <br>
 #### Select All Columns <br>
-![Select Query](wb_selectall.png) <br>
+![Select Query](wb_selectall2.png) <br>
 ![Select Results](wb_selectallpic.png) <br><br>
 
 Next, I wanted to see what the total amount due to the IDA was. To do this we need to aggregate all the transations with a Select query, and SUM function. Here's the outcome: <br>
