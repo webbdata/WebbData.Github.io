@@ -22,11 +22,11 @@ The main focuses were:
 What schools are struggling the most?
 How does class size affect college admission?
 What are the top math schools in the state? <br><br>
-Watch my video walkthrough of the Tableau dashboard I created to gain insights from this data.
+Watch my video walkthrough of the Tableau dashboard I created to visualize this data.
 
 ---
 
-### Category Name 2
+<!-- ### Category Name 2
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
@@ -34,7 +34,7 @@ Watch my video walkthrough of the Tableau dashboard I created to gain insights f
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)
 
----
+--- -->
 
 
 
