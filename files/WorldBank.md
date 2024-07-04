@@ -30,5 +30,5 @@ To get an overview of this data I needed to see how many rows we're dealing with
 
 Next, I wanted to see what the total amount due to the IDA was. To do this we need to aggregate all the transations with a Select query, and SUM function. Here's the outcome: <br>
 #### Sum of All Transactions <br>
-![Sum Query](wb_sum.png) <br>
+![Sum Query](wb_sum2.png) <br>
 ![Sum Results](wb_sumpic.png) <br>
