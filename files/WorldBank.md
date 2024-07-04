@@ -26,4 +26,9 @@ To get an overview of this data I needed to see how many rows we're dealing with
 ![Count Results](wb_countallpic.png) <br>
 #### Select All Columns <br>
 ![Select Query](wb_selectall.png) <br>
-![Select Results](wb_selectallpic.png) <br>
+![Select Results](wb_selectallpic.png) <br><br>
+
+Next, I wanted to see what the total amount due to the IDA was. To do this we need to aggregate all the transations with a Select query, and SUM function. Here's the outcome: <br>
+#### Sum of All Transactions <br>
+![Sum Query](wb_sum.png) <br>
+![Sum Results](wb_sumpic.png) <br>
