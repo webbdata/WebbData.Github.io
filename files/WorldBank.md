@@ -15,6 +15,7 @@ How much money does the IDA grant to its members? Who is the biggest recipient o
 <br><br>
 
 ### Dataset Details <br>
-This dataset comes directly from The World Bank and the latest IDA Statement of Credits and Grants can be found [here](src=https://finances.worldbank.org/Loans-and-Credits/IDA-Statement-Of-Credits-and-Grants-Historical-Dat/tdwh-3krx/about_data).
+This dataset comes directly from The World Bank and the latest IDA Statement of Credits and Grants can be found [here.](https://finances.worldbank.org/Loans-and-Credits/IDA-Statement-Of-Credits-and-Grants-Historical-Dat/tdwh-3krx/about_data) The data contains 1,304,781 rows representing transactions with 138 distinct countries. The report captures many attributes, but the key attributes include Country, Region, Amount Due to the IDA, Amount Disbursed by the IDA, and Amount Repaid to the IDA, Service Charge Rate, and Credit Status. The data further classifies transactions by Project Name, various transaction dates, and any 3rd parties involved.
+<br><br>
 
-
+### My Analysis Using SQL Queries <br>
