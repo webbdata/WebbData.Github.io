@@ -28,7 +28,16 @@ To get an overview of this data I needed to see how many rows we're dealing with
 ![Select Query](wb_selectall2.png) <br>
 ![Select Results](wb_selectallpic.png) <br><br>
 
-Next, I wanted to see what the total amount due to the IDA was. To do this we need to aggregate all the transations with a Select query, and SUM function. Here's the outcome: <br>
+Next, I wanted to see what the total amount due to the IDA was. To do this we need to aggregate all the transations with a Select query, and SUM function. We are only concered with the column "Due to IDA (US$)", so we can leave out the rest of the columns. Here's the outcome: <br>
 #### Sum of All Transactions <br>
 ![Sum Query](wb_sum2.png) <br>
 ![Sum Results](wb_sumpic.png) <br>
+The total is a staggering $23,801,874,654,808.31. To me, it's encouraging to see so much aid going to developmental projects around the world, but where is this money going, and what is it being used for?<br><br>
+
+Now it's time for the fun stuff. I wanted to find the highest single amount due to the IDA. For this we could use a simple MAX function with our select query, but for me this leaves out too much detail. I also wanted to know which country and region this transaction was associated with. Typing out "Due to IDA (US$)" over and over is too time comsuming. To get around this I used a SQL alias and changed the column name to "Due" for this query. This is what I got back from the data: <br>
+#### Largest Single Transaction <br>
+![Max Query](wb_max.png) <br>
+![Max Results](wb_maxpic.png) <br>
+You'll notice that I didn't actually use a Max function in this query. To ensure that I was really seeing the highest result I used the ORDER BY statement and sorted the transactions in descending order. SQL will sort results in ascending order by default so I needed to add DESC to get my desired outcome. <br><br>
+
+
