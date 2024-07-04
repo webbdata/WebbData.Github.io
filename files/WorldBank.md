@@ -22,6 +22,7 @@ This dataset comes directly from The World Bank and the latest IDA Statement of 
 To get an overview of this data I needed to see how many rows we're dealing with, and what attributes are being collected. By using a simple Count query I discovered that our report has 1,304,781 rows. I then performed a Select all query to see all the attributes (columns) in the dataset. Because we are working with so much data I had to limit these results to 500 rows. See the queries and results below: <br>
 
 #### Count All Rows <br>
+![count query](images/wb_count.png) <br>
 <img src="images/wb_count.png?raw=true"/> <img src="images/wb_countall pic.png?raw=true"/> <br>
 #### Select All Columns <br>
 <img src="images/wb_selectall.png?raw=true"/> <img src="images/wb_selectall pic.png?raw=true"/> <br>
