@@ -12,4 +12,9 @@ How much money does the IDA grant to its members? Who is the biggest recipient o
 - India holds the most transactions with 66,711
 - There are 6,162 transactions dedicated to the Project Name "Education II"
 - The average service charge rate is 0.79% with the highest rate being 7.09% and the lowest being .075%
+<br><br>
+
+### Dataset Details <br>
+This dataset comes directly from The World Bank and the latest IDA Statement of Credits and Grants can be found here(src=https://finances.worldbank.org/Loans-and-Credits/IDA-Statement-Of-Credits-and-Grants-Historical-Dat/tdwh-3krx/about_data).
+
 
