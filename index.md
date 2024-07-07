@@ -5,8 +5,8 @@
 ### Learn About My Projects
 
 #### [The World Bank SQL Analysis](/files/WorldBank.md)
-<img src="files/The World Bank.png?raw=true"/>
-Check out this SQL analysis of international development funding
+[<img src="files/The World Bank.png?raw=true"/>](/files/WorldBank.md)
+Check out this SQL analysis of international development funding from The World Bank
 
 ---
 #### [Doordash Analytics Using Excel](https://www.linkedin.com/pulse/doordash-analysis-impact-promotional-campaigns-webb-kimmel-6hcqe/?trackingId=S%2FfcLLnMS4SnlsEXk3jgmw%3D%3D)
