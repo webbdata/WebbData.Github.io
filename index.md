@@ -4,7 +4,7 @@
 
 ### Learn About My Projects
 
-#### [Highlighting Hospital Successes Using SQL](/SQLHealthcare/healthcare.md)
+#### [Highlighting Hospital Successes with SQL](/SQLHealthcare/healthcare.md)
 [<img src="SQLHealthcare/hospital.png?raw=true"/>](/SQLHealthcare/healthcare.md)
 A detailed SQL Analysis of diabetic patient data over a 10 year period
 
