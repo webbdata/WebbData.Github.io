@@ -18,3 +18,11 @@ Let's see what we were able to find.
 
 ## The Power of SQL: Analysis
 
+SQL is not known for its data visualization capabilities. However, with the right SQL query we can create a basic histogram from the data. This is a great way to quickly find the answer to our first question. Are the majority of patients staying less than 7 days? Here are the results: <br>
+
+#### Length of Stay SQL Histogram
+![Histogram SQL Script](sqlhistogram.png)<br>
+![Histogram Results](histogram.png)<br>
+
+Using this special SQL script we can see that the vast majorits of patients are in the hospital for less than 7 days, so the hospitals in this dataset are doing great on that front. The RPAD function is the key to this histogram in SQL. RPAD creates a column with a sting value in each row. In this case we are using the COUNT() of patients to determine the lenth of the strings, and representing each patient with an '*' to have the strings represent bars in a histogram. I divided the counts by 100 because we are dealing with a lot of patients. This shortens the bars so that we could see the full histogram on one page. Of the 101,766 instances in this dataset, 80,617 of those resulted in a hospital stay of less than 7 days. <br><br>
+
