@@ -15,3 +15,6 @@ Using SQL I was able to analyze this data and extract some key insights on the h
 - Were there any patients that had a diabetic emergency, but were discharged from the hospital faster than average? <br>
 
 Let's see what we were able to find.
+
+## The Power of SQL: Analysis
+
