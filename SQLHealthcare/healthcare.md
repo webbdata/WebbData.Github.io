@@ -80,3 +80,4 @@ Using SQL we were able to gain some valuable knowledge from our hospital dataset
 
 The hospitals in this dataset did a great job with the 101,766 instances of diabetes related hospitalizations. However, the data shows that there is room for improvement. Hopefully, using data insights like these, patient outcomes can be improved in the future. <br>
 
+Thank you for reading this SQL analysis of healthcare data. I performed this project as part of the Data Analytics Accelerator Bootcamp from [Data Career Jumpstart](https://www.linkedin.com/school/datacareerjumpstart/). This was a fun and valuable project for demonstrating my SQL analytics skills. If you enjoyed this analysis and would like to follow along for more feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/webb-kimmel-346701a8/).
