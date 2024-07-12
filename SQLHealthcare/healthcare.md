@@ -73,7 +73,7 @@ Using SQL, we were able to gain some valuable knowledge from our hospital datase
 
 - 80,617 patients hospitalized for diabetes stayed in the hospital for less than 7 days
 - More procedures performed means more time in the hospital, with patients having more than 55 procedures staying in the hospital an average of 5.7 days
-- On average Thoracic Surgery is the most utilized medical specialty, while Cardiology and the most total procedures performed at 5,352.
+- On average Thoracic Surgery is the most utilized medical specialty, while Cardiology had the most total procedures performed at 5,352.
 - There was no racial bias in treatment indicated in our dataset
 - These hospitals had a lot of success stories with 33,684 emergency cases have a hospital stay shorter than the average of 4.4 days
 - 46% of patients were eventually readmitted to the hospital, indicating that initial treatments could be more effectively utilized <br>
