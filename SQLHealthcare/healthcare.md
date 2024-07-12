@@ -33,17 +33,17 @@ Next, I wanted to determine the relationship between the number of lab procedure
 ![Average Stay vs Number of Procedures SQL Script](procedures_vs_time.png)<br>
 ![Results](timevsproc.png)<br>
 
-This breakdown makes a lot of sense. Patients in the "many" category have the longest hospital stays, averaging 5.7 days, while patients in the "few" category have the shortest average stay at 3.3 days. The CASE WHEN function in this query is what allows us to define our category parameters and order our average stay calculations (from the SELECT statement) appropriately.<br>
+This breakdown makes a lot of sense. Patients in the "many" category have the longest hospital stays, averaging 5.7 days, while patients in the "few" category have the shortest average stay at 3.3 days. The CASE WHEN function in this query allows us to define our category parameters and order our average stay calculations (from the SELECT statement) appropriately.<br>
 
-Now let's figure out what medical specialties / procedures are utilized the most often. In this case we are looking for specialties that have an average procedure performed count above 2.5, and have a total performance count greater than 50. This ensures that we are looking at procedures that have been performed on many patients, not just a few patients that may have a higher average. Here are the results: <br>
+Now let's figure out what medical specialties / procedures are utilized the most often. In this case we are looking for specialties that have an average procedure performed count above 2.5 and have a total performance count greater than 50. This ensures that we are looking at procedures that have been performed on many patients, not just a few patients that may have a higher average. Here are the results: <br>
 
 #### Medical Specialties with the Most Procedures Performed
 ![Most Performed Specialties SQL Script](most_procedures.png)<br>
 ![Results](mostproc.png)<br>
 
-Using our above parameters we get a list of five medical specialties. The Thoracic Surgery has the highest average, but we can see that the Cardiology specialty has the highest total count of procedures performed with 5,352. <br>
+Using our above parameters, we get a list of five medical specialties. The Thoracic Surgery has the highest average, but we can see that the Cardiology specialty has the highest total count of procedures performed with 5,352. <br>
 
-Ensuring everyone gets equal care is very important, but unfortunately it has been proven that many people and organizations suffer from biases, both conscious and unconscious. Using information from our demographics table alongside the health table data, we should be able to determine if there are any racial biases present in patient treatment. To get a snap shot of this we can break down the data by race and the number of lab procedures performed. In theory a significant difference in the number of procedures performed based on race would indicate a racial bias in patient treatment. What does the data say?
+Ensuring everyone gets equal care is very important, but unfortunately it has been proven that many people and organizations suffer from biases, both conscious and unconscious. Using information from our demographics table alongside the health table data, we should be able to determine if there are any racial biases present in patient treatment. To get a snapshot of this we can break down the data by race and the number of lab procedures performed. In theory a significant difference in the number of procedures performed based on race would indicate a racial bias in patient treatment. What does the data say?
 
 #### Number of Procedures Performed by Race
 ![Total procedures by race SQL Script](race_breakdown.png)<br>
@@ -51,13 +51,13 @@ Ensuring everyone gets equal care is very important, but unfortunately it has be
 
 Our aggregated column, the average number of procedures performed, comes from the health table. However, to be able to group these averages by race we need to use a JOIN statement to pull in data from our demographics table. Based on our results there does not seem to be any significant differences in the treatment of different races. This is the result we hope for, and hopefully will come to expect in all cases. <br>
 
-Let's highlight our hospital successes. For this we will consider a success story as a patient that was admitted with a diabetic emergency, indicated by a "1" in the "admission_type_id" column, and who had a hospital stay that was shorter than the average of 4.4 days. To do this we will need to use a subquery inside our SELECT and WHERE queries because we can't use an aggregating function, like AVG, as a parameter when trying to sort data. The query below is a good example of a subquery, and produces a full list of our success stories:
+Let's highlight our hospital's successes. For this we will consider a success story as a patient that was admitted with a diabetic emergency, indicated by a "1" in the "admission_type_id" column, and who had a hospital stay that was shorter than the average of 4.4 days. To do this we will need to use a subquery inside our SELECT and WHERE queries because we can't use an aggregating function, like AVG, as a parameter when trying to sort data. The query below is a good example of a subquery, and produces a full list of our success stories:
 
 #### List of Emergency Success Stories
 ![Success Stories SQL Script](emergency_successes.png)<br>
 ![Results](successes.png)<br>
 
-The WITH statement in the query above allows us to give our subquery results a name that we can then reference in the second query to produce our list of hospital successes. Altering the above query with a COUNT function shows that there 33,684 success stories in out dataset! 
+The WITH statement in the query above allows us to give our subquery results a name that we can then reference in the second query to produce our list of hospital successes. Altering the above query with a COUNT function shows that there are 33,684 success stories in our dataset! 
 
 Finally, we want to know how many patients are being readmitted after the treatments listed in this dataset. In an ideal world patients would receive sufficient and appropriate treatments on their first stay, saving money for the hospitals and, more importantly, keeping these patients healthy. To figure out if, and how soon, patients were readmitted we can use another CASE WHEN statement to organize the records based on three categories found in the "readmitted" column. Here are the results:
 
@@ -69,7 +69,7 @@ These results are promising. We can see that most patients (54%) were not readmi
 
 ## Data Insights for Better Healthcare
 
-Using SQL we were able to gain some valuable knowledge from our hospital dataset. To recap we found that:
+Using SQL, we were able to gain some valuable knowledge from our hospital dataset. To recap we found that:
 
 - 80,617 patients hospitalized for diabetes stayed in the hospital for less than 7 days
 - More procedures performed means more time in the hospital, with patients having more than 55 procedures staying in the hospital an average of 5.7 days
