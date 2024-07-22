@@ -17,7 +17,8 @@ Check out this SQL analysis of international development funding from The World 
 ---
 
 #### [Visualizing NBA Statistics with Tableau](https://www.linkedin.com/feed/update/urn:li:activity:7221250598287912962/)
-
+[<img src="images/nba_analysis.png?raw=true"/>](https://www.linkedin.com/feed/update/urn:li:activity:7221250598287912962/)
+Creating insightful data visualizations with Tableau Stories
 
 ---
 
