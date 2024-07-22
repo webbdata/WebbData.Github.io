@@ -16,6 +16,11 @@ Check out this SQL analysis of international development funding from The World 
 
 ---
 
+#### [Visualizing NBA Statistics with Tableau](https://www.linkedin.com/feed/update/urn:li:activity:7221250598287912962/)
+
+
+---
+
 #### [Education Analysis](https://www.linkedin.com/pulse/gaining-insights-education-data-visualization-video-webb-kimmel-in5ue/?trackingId=N8FwLq98TqiYbO7ezlY0Ag%3D%3D)
 [<img src="images/Educational Insights.png?raw=true"/>](https://www.linkedin.com/pulse/gaining-insights-education-data-visualization-video-webb-kimmel-in5ue/?trackingId=N8FwLq98TqiYbO7ezlY0Ag%3D%3D)
 In this case study from Data Analytics Accelerator, I analyzed data from the Massachusetts Department of Education. <br><br>
