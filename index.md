@@ -10,8 +10,9 @@ A detailed SQL Analysis of diabetic patient data over a 10 year period
 
 ---
 
-#### [Statistical Analysis of IBM HR Data Using R](/HR Project/hr.project.md)
-[<img src="HR Project/HR.png?raw=true"/>](/HR Project/HR_project.md)
+#### [Statistical Analysis of IBM HR Data Using R](/HRProject/hr.project.md)
+[<img src="HRProject/HR.png?raw=true"/>](/HRProject/HR_project.md)
+I used the powerful statistical analysis tools in RStudio to analyze HR data from IBM
 
 ---
 
