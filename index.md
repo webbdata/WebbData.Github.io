@@ -29,6 +29,12 @@ Watch my video walkthrough of the Tableau dashboard I created to visualize this 
 
 ---
 
+#### [Mining Analysis with Python](https://www.linkedin.com/pulse/using-python-analyze-iron-floatation-plant-data-james-webb-kimmel-9d6ue/?trackingId=RVaeYw%2Bklmwk%2FYAlFyL4%2FQ%3D%3D)
+[<img src="images/python_cover.png?raw=true"/>](https://www.linkedin.com/pulse/using-python-analyze-iron-floatation-plant-data-james-webb-kimmel-9d6ue/?trackingId=RVaeYw%2Bklmwk%2FYAlFyL4%2FQ%3D%3D)
+Identifying data relationships with Python to predict iron ore quality after refinement.
+
+---
+
 #### [Doordash Analytics Using Excel](https://www.linkedin.com/pulse/doordash-analysis-impact-promotional-campaigns-webb-kimmel-6hcqe/?trackingId=S%2FfcLLnMS4SnlsEXk3jgmw%3D%3D)
 [<img src="images/Doordash.png?raw=true"/>](https://www.linkedin.com/pulse/doordash-analysis-impact-promotional-campaigns-webb-kimmel-6hcqe/?trackingId=S%2FfcLLnMS4SnlsEXk3jgmw%3D%3D)
 Write up for my Doordash project using Excel to gain insights from customer data. 
