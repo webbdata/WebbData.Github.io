@@ -5,7 +5,7 @@
 Human Resources are the most valuable resources for any business. It is important to find ways to attract employees that fit are a good fit for the company and role they are performing, and to create an environment that keeps those employees motivated and content at the company. In this data analysis I used R, a powerful statistical analysis language, to gain insights from an IBM HR dataset to try to determine why employee attrition at IBM was increasing.
 
 ### The IBM Dataset
-For this project I am taking on the role of an IBM People Data Analyst intern. Recently there have been many employees leaving the company and IBM leadership wants to know why. This dataset was created by IBM data scientists but is a fictional dataset. The data contains 1,470 rows each representing an employee, and there ar 35 columns tracking different attributes that describe these employees. The "Attrition" column will be the most important attribute for this project as this tells us whether or not the employee stayed at IBM. There are some columns that contain demographic data such as age, education, and marital status. Other columns contain job-related data like monthly income, years at the company, and some categorical numbers for things like performance rating and work-life balance. I was asked to determine the following:
+For this project I am taking on the role of an IBM People Data Analyst intern. Recently there have been many employees leaving the company and IBM leadership wants to know why. This dataset was created by IBM data scientists but is a fictional dataset. The data contains 1,470 rows each representing an employee, and there ar 35 columns tracking different attributes that describe these employees. [Here](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) is the original dataset. The "Attrition" column will be the most important attribute for this project as this tells us whether or not the employee stayed at IBM. There are some columns that contain demographic data such as age, education, and marital status. Other columns contain job-related data like monthly income, years at the company, and some categorical numbers for things like performance rating and work-life balance. I was asked to determine the following:
 
 - Are there any signficant correlations between the most important attributes?
 - What trends can be seen between these correlated attributes?
@@ -79,7 +79,7 @@ Now that those values have been converted into a readable format for the logit m
 
 #### Predicting Attrition based on Age
 
-![Logistic Regression: Attrition vs. Age Code](log_age.png)<br>
+![Logistic Regression: Attrition vs. Age Code](log_age1.png)<br>
 ![Logistic Regression: Attrition vs. Age Results](log_age_pic.png)<br>
 
 #### Predicting Attrition based on Monthly Income
@@ -96,3 +96,18 @@ Now that those values have been converted into a readable format for the logit m
 
 ![Logistic Regression: Attrition vs. Distance Code](log_dis.png)<br>
 ![Logistic Regression: Attrition vs. Distance Results](log_dis_pic.png)<br>
+
+Based on these models we can see if any of these factors are statistically significant for prediction employee attrition. In the first model I can see that Age again has a p-value well below 0.05, so it is significant. Next we have the logistic regression coefficients. These show the odds of attrition for a one unit increase in the input variable, in this case age. With a coefficient value of -0.05 I can say that for every additional year of age the likelihood of employee attrition decreases by 5%. This aligns with the hypothesis testing I performed earlier in this project. <br>
+
+Looking at the other models I can assess how the attrition probability changes for the other factors I am interested in. Monthly Income is statistically significant, but the effect on the odds of attrition is basically zero. Work-Life Balance is also a categorical variable with a "1" being bad work-life balance and a "5" being the best work-life balance. I can see that work-life balance is statistically significant, and that an increase in balance corresponds to a 24% reduction in the odds of attrition. This means that if IBM wishes to reduce attrition rates they may want to consider improving the work-life balance of their employees. Distance from home is also a significant factor but does not affect the odds of attrition very much. <br><br>
+
+## Key Takeaways
+
+These are the insights I was able to discover through my data analysis with R:
+
+- There were significant correlations between age, monthly income, education, and total working years.
+- There were some clear positive trends between age and monthly income, and total working years and monthly income, but trends between age and education, and education and total monthly income were less clear than I expected.
+- The data proved that there was no ageism bias in relation to lay-off decisions.
+- The most significant predictor of employee attrition is work-life balance which could change how IBM manages their employees' time. <br><br>
+
+Thank you so much for reading this project write-up for my statistical analysis of IBM data using R! This was a great project to increase my analytical skills and for learning more about statistical analysis and HR management. If you enjoyed this analysis, or have any questions or feedback please comment on this project to let me know! If you would like to follow along for more data analysis projects feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/james-webb-kimmel-346701a8/). This was another fun project I completed as part of the Data Career Jumpstart curriculum. 
