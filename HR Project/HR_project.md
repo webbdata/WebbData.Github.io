@@ -68,4 +68,31 @@ One of the most powerful uses of R is to create statistical models. A common exa
 ![Monthly Income Linear Regression Code](lin_regression.png)<br>
 ![Monthly Income Linear Regression Summary](lin_regression_pic.png)<br>
 
+There is a few key values to examine in the results of this linear regression. The first is the Coefficient Pr(>|t|). This shows the p-values calculated using the probability distribution (t-distribution) created by the regression model. Age has a p-value well below the 0.05 threshold for statistical significance, so I can be confident that age is a significant factor for predicting monthly income. The "Signif. codes" legend is just a quick representation of the significance of our input variable. Because the p-value is basically 0, the age input gets "***", meaning it is very statistically significant. Finally, the R-squared value shows how much of the variance in monthly income can be explained by the input variable (age). In this model the R-squared shows us that about 25% of the variance in monthly income can be explained by changes in age. Pretty cool! <br>
 
+For this project I am more concerned with predicting attrition for this project. Linear regressions are great for predicting values when comparing continuous data points. The "Attrition" column only has two values though, meaning this data is a binary categorical value. Linear regressions aren't great for predicting binary values. Doing some more research, I determined that I need to use a Logistic Regression, also known as a logit model. However, R cannot interpret string values for the purposes of a logit model, so I first need to convert the "Yes" and "No" values in the attrition column to 1's and 0's.
+
+#### Converting the Attrition Column to Binary Numbers
+![R Data Conversion Code](r_convert.png)<br>
+
+Now that those values have been converted into a readable format for the logit model, I can create some models to see how factors like age, monthly income, work-life balance, and distance from home affect the chances of an employee leaving the company. Here are a few models I created using logistic regression. 
+
+#### Predicting Attrition based on Age
+
+![Logistic Regression: Attrition vs. Age Code](log_age.png)<br>
+![Logistic Regression: Attrition vs. Age Results](log_age_pic.png)<br>
+
+#### Predicting Attrition based on Monthly Income
+
+![Logistic Regression: Attrition vs. Income Code](log_inc.png)<br>
+![Logistic Regression: Attrition vs. Income Results](log_inc_pic.png)<br>
+
+#### Predicting Attrition based on Work-Life Balance
+
+![Logistic Regression: Attrition vs. Work-Life Balance Code](log_bal.png)<br>
+![Logistic Regression: Attrition vs. Work-Life Balance Results](log_bal_pic.png)<br>
+
+#### Predicting Attrition based on Distance From Home
+
+![Logistic Regression: Attrition vs. Distance Code](log_dis.png)<br>
+![Logistic Regression: Attrition vs. Distance Results](log_dis_pic.png)<br>
