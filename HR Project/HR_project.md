@@ -31,9 +31,9 @@ Based on these results I determined that there were significant relationships be
 ![Pairplot Code](r_pairplot.png)<br>
 ![Pairplot Results](r_pairplot_pic.png)<br>
 
-I can see a few things that stand out in this data visualization. Interestingly, education level does not appear to have a big impact on monthly income, and age is not as big a factor in education as one might expect. Education in this dataset is a categorical numerical value with "1" meaning below college level education, and "5" meaning doctorate level. In these plots I can see multiple employees with doctorate-level education making less than $5,000 per month. I can also see examples of employees in their late 20s and early 30s with doctorates. <br><br>
+I can see a few things that stand out in this data visualization. Interestingly, education level does not appear to have a big impact on monthly income, and age is not as big a factor in education as one might expect. Education in this dataset is a categorical numerical value with "1" meaning below college level education, and "5" meaning doctorate level. In these plots I can see multiple employees with doctorate-level education making less than $5,000 per month. I can also see examples of employees in their late 20s and early 30s with doctorates. <br>
 
-There does appear to be a clear threshold when comparing monthly income with total working years. This plot shows a clear line where employees with over 20 total working years are making at least $5,000 per month. <br><br>
+There does appear to be a clear threshold when comparing monthly income with total working years. This plot shows a clear line where employees with over 20 total working years are making at least $5,000 per month. <br>
 
 Finally, I see that age does have a positive correlation with monthly income, but again, this is not as pronounced as I expected. While there are no employees under 20 making more than $5,000 per month, employees aged 25 and above have monthly incomes covering the full range of possible values. This is an interesting group of employees! <br><br>
 
