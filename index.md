@@ -10,6 +10,11 @@ A detailed SQL Analysis of diabetic patient data over a 10 year period
 
 ---
 
+#### [Statistical Analysis of IBM HR Data Using R](/HR Project/hr.project.md)
+[<img src="HR Project/HR.png?raw=true"/>](/HR Project/HR_project.md)
+
+---
+
 #### [The World Bank SQL Analysis](/files/WorldBank.md)
 [<img src="files/The World Bank.png?raw=true"/>](/files/WorldBank.md)
 Check out this SQL analysis of international development funding from The World Bank
