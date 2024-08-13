@@ -31,7 +31,7 @@ Creating insightful data visualizations with Tableau Stories
 #### [Education Analysis](https://www.linkedin.com/pulse/gaining-insights-education-data-visualization-video-webb-kimmel-in5ue/?trackingId=N8FwLq98TqiYbO7ezlY0Ag%3D%3D)
 [<img src="images/Educational Insights.png?raw=true"/>](https://www.linkedin.com/pulse/gaining-insights-education-data-visualization-video-webb-kimmel-in5ue/?trackingId=N8FwLq98TqiYbO7ezlY0Ag%3D%3D)
 In this case study from Data Analytics Accelerator, I analyzed data from the Massachusetts Department of Education. <br><br>
-Watch my video walkthrough of the Tableau dashboard I created to visualize this data.
+Watch my [video walkthrough](https://www.loom.com/share/da83ad95eeed4922ac03cd995ff9702e) of the Tableau dashboard I created to visualize this data.
 
 ---
 
