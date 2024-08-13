@@ -10,11 +10,22 @@ For this project I am taking on the role of an IBM People Data Analyst intern. R
 - Are there any signficant correlations between the most important attributes?
 - What trends can be seen between these correlated attributes?
 - Is there any evidence of ageism in attrition rates?
-- How much do factors like monthly income, work-life balance, and distance from home affect the chances of an employee leaving the company?
+- Were employees just randomly selected for firing?
+- How much do factors like age, monthly income, work-life balance, and distance from home affect the chances of an employee leaving the company?
 
 Let's see what insights we can gain from this data using R.
 
 ## Statistical Analysis with R
+
+First, I wanted to find out if there are any correlations between the most important attributes in this dataset. IBM determined that age, daily rate, distance from home, education, hourly rate, monthly income, monthly rate, number of companies worked at, total working eyars, and training times last year are significant variables they want to track. But, before I determine relationships between these attributes I needed to read the data into RStudio to create a dataframe.
+
+![Read a CSV file](read_csv.png) <br>
+
+Now that I have the dataframe created I can run the correlation matrix for the important attributes using the "cor" function in R. See the results below:
+
+![Correlation Matrix Code](corr_matrix.png)<br>
+![Correlation Matrix Results](r_corr_matrix.png)<br>
+
 
 
 
