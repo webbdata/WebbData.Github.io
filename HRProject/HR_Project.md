@@ -12,7 +12,7 @@ For this project I am taking on the role of an IBM People Data Analyst intern. R
 - Is there any evidence of ageism in attrition rates?
 - How much do factors like age, monthly income, work-life balance, and distance from home affect the chances of an employee leaving the company?
 
-Usiting R I will try to gain valuable insights from this data.
+Using R I will try to gain valuable insights from this data.
 
 ## Statistical Analysis with R
 
@@ -43,14 +43,14 @@ Finally, I see that age does have a positive correlation with monthly income, bu
 
 ### Bias in Firing Decisions?
 
-A disgruntled employee has decided to sue IBM after being laid-off. They claim that the company's layoffs were influenced by ageism, saying that older employees were laid-off at a higher rate than younger ones. Leadership would like to dispel these claims and needs the data to prove it. To do this I want to do some hypothesis testing. I first wanted to create a box plot comparing Age and Attrition to see the data, and any clear bias that may exist. 
+A disgruntled employee has decided to sue IBM after being laid-off. They claim that the company's layoffs were influenced by ageism, saying that older employees were laid-off at a higher rate than younger ones. Leadership would like to dispel these claims and needs the data to prove it. To do this I will do some hypothesis testing. I first wanted to create a box plot comparing Age and Attrition to see the data, and any clear bias that may exist. 
 
 #### Age vs. Attrition Boxplot
 
 ![Age vs. Attrition Boxplot Code](age_boxplot.png)<br>
 ![Age vs. Attrition Boxplot Results](age_boxplot_pic.png)<br>
 
-These boxplots look fairly similar. However, the thick black line in these plots shows the median age for the "Yes" and "No" categories from the Attrition column. The median age for the "Yes" column is clearly lower than the median age of the "No" category, meaning the average age of employees that were let go is likely lower than the average of employees retained. I can further show this by performing a Welch two sample t-test to get a more statistical comparison of the two groups. To perform the t-test I first have to great two new variables, one to represent employees that stayed ("No" values) and one to represent employees that left ("Yes" values). Once I declare these two arrays I can run the t-test.
+These boxplots look fairly similar. However, the thick black line in these plots shows the median age for the "Yes" and "No" categories from the Attrition column. The median age for the "Yes" column is clearly lower than the median age of the "No" category, meaning the average age of employees that were let go is likely lower than the average of employees retained. I can further show this by performing a Welch two sample t-test to get a more statistical comparison of the two groups. To perform the t-test I first have to create two new variables, one to represent employees that stayed ("No" values) and one to represent employees that left ("Yes" values). Once I declare these two arrays I can run the t-test.
 
 #### Welch Two Sample T-Test
 
@@ -70,7 +70,7 @@ One of the most powerful uses of R is to create statistical models. A common exa
 
 There are a few key values to examine in the results of this linear regression. The first is the Coefficient Pr(>|t|). This shows the p-values calculated using the probability distribution (t-distribution) created by the regression model. Age has a p-value well below the 0.05 threshold for statistical significance, so I can be confident that age is a significant factor for predicting monthly income. The "Signif. codes" legend is just a quick representation of the significance of our input variable. Because the p-value is basically zero, the age input gets "***", meaning it is very statistically significant. Finally, the R-squared value shows how much of the variance in monthly income can be explained by the input variable (age). In this model the R-squared shows us that about 25% of the variance in monthly income is explained by changes in age. Pretty cool! <br>
 
-For this project I am more concerned with predicting attrition for this project. Linear regressions are great for predicting values when comparing continuous data points. The "Attrition" column only has two values though, meaning this data is a binary categorical value. Linear regressions are not great for predicting binary values. Doing some more research, I determined that I need to use a Logistic Regression, also known as a logit model. However, R cannot interpret string values for the purposes of a logit model, so I first need to convert the "Yes" and "No" values in the attrition column to 1's and 0's.
+For this project I am more concerned with predicting attrition. Linear regressions are great for predicting values when comparing continuous data points. The "Attrition" column only has two values though, meaning this data is a binary categorical value. Linear regressions are not great for predicting binary values. Doing some more research, I determined that I need to use a Logistic Regression, also known as a logit model. However, R cannot interpret string values for the purposes of a logit model, so I first need to convert the "Yes" and "No" values in the attrition column to 1's and 0's.
 
 #### Converting the Attrition Column to Binary Numbers
 ![R Data Conversion Code](r_convert.png)<br>
