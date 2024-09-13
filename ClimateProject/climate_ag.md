@@ -18,3 +18,34 @@ The dataset I used for this project tracks agricultural trends from ten countrie
 Let's see what I was able to learn from this data. 
 
 ## Exploratory Analysis with SQL and Excel
+
+To begin this analysis I first needed to get a sense for the data. I wanted to know how many rows and columns are in the data set, how many years the data covers, and the number and names of countries included in the data. Using the following SQL queries I was able to quickly find those answers.
+
+#### Row and Column Counts
+![Row Count Query](row_count.png) <br>
+![Column Count Query](column_count.png) <br>
+
+These two queries gave me the overall shape of the data, showing that there are 10,000 rows and 15 attribute columns for each record. 
+
+#### Year Count and Range
+![Year Count Query](year_count.png) <br>
+
+The above query counts the number of distinct years shown in the data. Using simple min and max queries I also determined that the lowest and highest years in the data. This data set spans thirty-five years from 1990 to 2024. 
+
+#### Country Count and Names
+![Country Count Query](country_count.png) <br>
+![Country List Query](country_list.png) <br>
+![Country List Results](country_list_pic.png) <br>
+![Row Count by Country Query](row_count_by_country.png) <br>
+![Row Count by Country Results](row_count_by_country_pic.png) <br>
+
+To get an accurate count of the countries in this data set I again need to get a distinct count, this time on the country column. Next I wanted a list of the ten countries with records in the data. I also wanted to know if each country had an equal number of records in the data. I determined that this was not the case, and could see that the US and Australia had the most records, with 1,032, and Brazil had the fewest, with 944. <br>
+
+After getting a good sense for the data I was curious about each country's crop yields. I wanted to see a list of each countries minimum and maximum crop yields throughout the years included in this data. A simple min / max query was not enough to get the results I wanted, so I turned to a powerful SQL tool, the Common Table Expression (CTE). CTEs allowed me to create temporary virtual tables with part of the results I needed. I could then rejoin these temporary tables with the overall data set to get the list I wanted. Here are the two CTEs I used:
+
+#### Common Table Expressions for Minimum and Maximum Crop Yields
+![Minimum CTE Query](min_CTE.png) <br>
+![Min CTE Results](min_CTE_pic.png) <br>
+![Maximum CTE Query](max_CTE.png) <br>
+![Max CTE Results](max_CTE_pic.png) <br>
+
