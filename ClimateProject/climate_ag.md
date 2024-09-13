@@ -125,11 +125,17 @@ At the bottom right of the dashboard is a treemap showing all the crop types gro
 
 While I did not include the above line chart in the dashboard, I was curious if there was any trend in extreme weather events over the thirty-five years of recorded data. This line chart shows total extreme weather events recorded each year. 2015 had the highest number of extreme weather events with 245, while 2007 had the fewest with 72. Using the trend lines feature in Tabeau I saw that there is a slight increasing trend over time, however I determined that this is not a statistically significant trend. <br>
 
+## Key Takeaways 
 
+I used Excel, SQL, and Tabeau to analyze climate and agricultural data. While the results were not what I expected I did find an answer to my initial questions when starting this project.
 
-- What climate attributes have the most significant affects on agriculture?
-- What are the trends for factors like: CO2 emissions, average temperature, crop yield, precipitation, soil health, pesticide and fertilizer use, and irrigation access?
-- How does average temperature affect crop yield?
-- What are the crops that have the highest economic impact?
-- What are the most used agricultural adaptation strategies for dealing with climate change?
-- Are extreme weather events steadily increasing?
+- The most significant data relationships in this data set were between economic impact vs crop yield, and crop yield vs average temperature. Surpisingly there were no other statistically significant relationships in any of the data. 
+- The data did not show clear positive or negative trends in any of the important climate and agricultural measures, another surprise. 
+- The sweet spot for crop yield was between 10-20 degrees celsius.
+- This data was full of surprises and showed that from 1990 to 2024 in the US, coffee was most lucrative crop grown in the US.
+- The most utilized agricultural adaptation strategy in the US was water management and was used 227 times.
+- There is a slight upward trend in extreme weather events over the course of the thirty-five years recorded, but it was determined to not be a significant trend.
+
+If you are like me then you had a few questions about the reliability of this data set. Firstly, my hypothesis was shown to be wrong and this data appears to show that there is virtually no relationship between climate change and agriculture. This could be true but seems highly unlikely. Secondly, I am fairly certain that the US is not a large producer of coffee, so to see that this was the most grown and highest value crop over the timeframe of this data set was truly shocking. While I do not know the true source or methods for the data collected in this data set, the analytical skills and concepts presented in this project still hold true, and the insights gained were consistent with the data utilized. <br>
+
+Thank you so much for reading this analysis, I hope you enjoyed it. This was just a fun project I wanted to due to showcase my the analytical tools and skills I have been learning as part of my coursework in the Data Analytics Accelerator from Data Career Jumpstart. If you would like to check out my other projects, and follow along for more please connect with my on [LinkedIn.](https://www.linkedin.com/in/james-webb-kimmel-346701a8/) Also please comment any thoughts or feedback you may have had while reading through this analysis, I would love to hear what you think. Thanks again!
