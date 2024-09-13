@@ -9,11 +9,11 @@ Climate Change is a growing problem for our planet and has the potential to dras
 The dataset I used for this project tracks agricultural trends from ten countries spanning thirty-five years (1990 - 2024). The data consists of 10,000 rows and fifteen attribute columns. Each row represents annual data for a specific country, region and crop type. There are qualitative attributes tracking the year, country, region, crop type, and the main climate adaptation strategy used for each record. The quantitative attributes track agricultural and weather measurements such as crop yield in metric tons per hectare, average temperature in celsius, total precipitation in mm, CO2 emissions in metric tons, etc.  I pulled this dataset from Kaggle, and the original file can be found [here.](https://www.kaggle.com/datasets/waqi786/climate-change-impact-on-agriculture/data) My assumption going into this analysis was that there would be strong relationships between trending climate measurements and agricultural outcomes. The main goal for this project was to create some tools and visualizations, and to test my hypothesis by answering these questions:
 
 - What climate attributes have the most significant affects on agriculture?
-- How does average temperature affect crop yield?
-- Are extreme weather events steadily increasing?
 - What are the trends for factors like: CO2 emissions, average temperature, crop yield, precipitation, soil health, pesticide and fertilizer use, and irrigation access?
+- How does average temperature affect crop yield?
 - What are the crops that have the highest economic impact?
 - What are the most used agricultural adaptation strategies for dealing with climate change?
+- Are extreme weather events steadily increasing?
 
 Let's see what I was able to learn from this data. 
 
@@ -95,3 +95,35 @@ Finally, I created a pivot table tool to quickly see the top ten crops with the 
 This tool could help countries make resource decisions to maximize the economic benefits of the crops they are growing. 
 
 ## Insightful Visualizations with Tableau
+
+One of the most effective way to gain insights from data is to actually be able to "see" it. Obviously I could see the data in an excel spreadsheets but our minds are not the best at making sense of 10,000 lines of text a numbers. Tableau is one of the most effective tools for creating useful data visualizations that can help us wrap our heads around the data that is being presented. Below is a screenshot of a Tableau dashboard I created to better understand this dataset. I also encourage you to follow this [link](https://public.tableau.com/app/profile/webb.kimmel/viz/ImpactofClimateChangeonAgriculture/ImpactofClimateChangeonAgriculture) to view my interactive dashboard on Tableau Public. I'll walk through some of the insights I found using these visualizations.
+
+![Tableau Dashboard Screenshot](dashboard.png) <br>
+
+These visualizations helped me answer the questions I had when I started this project. The entire dashboard is filtered to show only data for the United States, but this filter can be adjusted to highlight other countries, or all the countries included in the data. <br>
+
+#### Country Sparklines
+On the lefthand side I created the "Country Sparklines". These area charts show the times series trends for important climate and agricultural measurements. The first four sparklines show yearly trend averages temperature in celsius, irrigation access %, soil heal index scores, and precipitation in mm. The last for sparklines show annual trends for totals CO2 emissions in metric tons, crop yield in mt/ha, fertilizer use in kg/ha, and pesticide use in kg/ha. These sparklines were surprising to me because they do not show strong positive or negative trends in any of these categories which is counter to my assumption that there would be clear impacts from climate change. <br>
+
+#### Crop Yield vs Average Temperature
+In the top righthand corner of this dashboard I placed a scatterplot comparing crop yield on the y-axis, with average temperature on the x-axis. This comparison produced a very interesting distribution. In average temperatures ranging from -5 degrees celsius to around 10 degrees I saw that there were no crops with a yield higher than 3 mt/ha. Clearly these crops are not fans of cold weather. In the middle of the temperature range (~10 - ~20 degrees celsius) there seemed to be a sweet spot. This range of temperatures showed the highest ceiling on crop yields, as well as the highest floor. The highest performing crop was corn with 4.9 mt/ha at an average temperature of 10.81 degrees. In the upper range of our temperatures the crop yield suffers again. From around 20 - 35 degrees celsius the floor on crop yields drops almost to the cold-weather levels. However, the ceiling remains high suggesting that many crops can still perform well at higher average temperatures. While our sparkline for average temp didn't show a strong warming trend, this scatter plot does suggest that higher average temperatures would have a significant impact on crop yields. <br>
+
+#### Highest Economic Impact Crops
+In the middle-left of the dashboard there is a summary table showing the top five crops based on total economic impact in Millions of US Dollars. This offers another snapshot of the most lucrative crops in the US over the thirty-five years of data. Surprisingly, Coffee is the most valuable crop. <br>
+
+#### Agricultural Adaptation Strategies for Mitigating the Impact of Climate Change
+To the right of the top five crops table I created another summary table. This shows the agricultural adaptation strategies ranked from most utilized to least utilized. Water management was the most utilized stategy being the strategy used in 227 records in the US. Organic farming strategies was the least utilized strategy, only appearing in 183 records. <br>
+
+#### Economic Impact vs Crop Yield
+In the bottom-center of the dashboard is another scatter plot. This shows the relationship between economic impact and crop yields. This scatter plot is consistent with the correlation matrix I created in excel, as these were the only two measurements that had a statistically significant relationship. This plot shows that as crop yield increases so does the economic impact. This makes sense: if there are more crops to sell then more money will be made. <br>
+
+#### Crop Type Treemap
+At the bottom right of the dashboard is a treemap showing all the crop types grown in the US that were part of this data set. The size of the boxes in the treemap is determined by the count of records related to that crop type. Coffee is surprisingly the most respresented crop type in the data with 118 records, while soybeans has the fewest records at 85. The treemap also shows the total economic impact of each crop over the past thirty-five years. <br>
+
+
+- What climate attributes have the most significant affects on agriculture?
+- What are the trends for factors like: CO2 emissions, average temperature, crop yield, precipitation, soil health, pesticide and fertilizer use, and irrigation access?
+- How does average temperature affect crop yield?
+- What are the crops that have the highest economic impact?
+- What are the most used agricultural adaptation strategies for dealing with climate change?
+- Are extreme weather events steadily increasing?
