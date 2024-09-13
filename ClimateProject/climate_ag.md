@@ -120,6 +120,12 @@ In the bottom-center of the dashboard is another scatter plot. This shows the re
 #### Crop Type Treemap
 At the bottom right of the dashboard is a treemap showing all the crop types grown in the US that were part of this data set. The size of the boxes in the treemap is determined by the count of records related to that crop type. Coffee is surprisingly the most respresented crop type in the data with 118 records, while soybeans has the fewest records at 85. The treemap also shows the total economic impact of each crop over the past thirty-five years. <br>
 
+#### Extreme Weather Events
+![Extreme Weather Events Line Chart](weather_events.png) <br>
+
+While I did not include the above line chart in the dashboard, I was curious if there was any trend in extreme weather events over the thirty-five years of recorded data. This line chart shows total extreme weather events recorded each year. 2015 had the highest number of extreme weather events with 245, while 2007 had the fewest with 72. Using the trend lines feature in Tabeau I saw that there is a slight increasing trend over time, however I determined that this is not a statistically significant trend. <br>
+
+
 
 - What climate attributes have the most significant affects on agriculture?
 - What are the trends for factors like: CO2 emissions, average temperature, crop yield, precipitation, soil health, pesticide and fertilizer use, and irrigation access?
