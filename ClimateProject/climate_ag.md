@@ -36,7 +36,7 @@ The above query counts the number of distinct years shown in the data. Using sim
 ![Country Count Query](country_count.png) <br>
 ![Country List Query](country_list.png) <br>
 ![Country List Results](country_list_pic.png) <br>
-![Row Count by Country Query](row_count_by_country.png) <br>
+![Row Count by Country Query](country_count2.png) <br>
 ![Row Count by Country Results](row_count_by_country_pic.png) <br>
 
 To get an accurate count of the countries in this data set I again need to get a distinct count, this time on the country column. Next, I wanted a list of the ten countries with records in the data. I also wanted to know if each country had an equal number of records in the data. I determined that this was not the case and could see that the US and Australia had the most records, with 1,032, and Brazil had the fewest, with 944. <br>
@@ -44,7 +44,7 @@ To get an accurate count of the countries in this data set I again need to get a
 After getting a good sense for the data I was curious about what I could learn from the data. First, I just wanted to get a quick snapshot of the top ten highest crop yields from 2023. The following query showed that Australia had the highest crop yield in 2023, growing 4.79 metric tons of cotton per hectare. The US was a close second with 4.75 mt/ha of Coffee. 
 
 #### Top Ten Crops by Yield in 2023
-![Top 10 Query](2023_snapshot.png) <br>
+![Top 10 Query](2023_snapshot2.png) <br>
 ![Top 10 Results](snapshot_pic.png) <br>
 
 Next, I wanted to see a list of each country's minimum and maximum crop yields throughout the years included in this data. A simple min / max query was not enough to get the results I wanted, so I turned to a powerful SQL tool, the Common Table Expression (CTE). CTEs allowed me to create temporary virtual tables with part of the results I needed. I could then rejoin these temporary tables with the overall data set to get the list I wanted. Here are the two CTEs I used:
