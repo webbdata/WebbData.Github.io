@@ -30,7 +30,7 @@ These two queries gave me the overall shape of the data, showing that there are 
 #### Year Count and Range
 ![Year Count Query](year_count.png) <br>
 
-The above query counts the number of distinct years shown in the data. Using simple min and max queries I also determined that the lowest and highest years in the data. This data set spans thirty-five years from 1990 to 2024. 
+The above query counts the number of distinct years shown in the data. Using simple min and max queries I also determined the lowest and highest years in the data. This data set spans thirty-five years from 1990 to 2024. 
 
 #### Country Count and Names
 ![Country Count Query](country_count.png) <br>
@@ -138,4 +138,4 @@ I used Excel, SQL, and Tableau to analyze climate and agricultural data. While t
 
 If you are like me then you may have had a few questions about the reliability of this data set. Firstly, my hypothesis was shown to be wrong, and this data appears to show that there is virtually no relationship between climate change and agriculture. This could be true but seems highly unlikely. Secondly, I am fairly certain that the US is not a large producer of coffee, so to see that this was the most grown and highest value crop over the timeframe of this data set was truly shocking. While I do not know the true source or methods for the data collected in this data set, the analytical skills and concepts presented in this project still hold true, and the insights gained were consistent with the data utilized. <br>
 
-Thank you so much for reading this analysis, I hope you enjoyed it. This was just a fun project I wanted to due to showcase the analytical tools and skills I have been learning as part of my coursework in the Data Analytics Accelerator from Data Career Jumpstart. If you would like to check out my other projects, and follow along for more please connect with my on [LinkedIn.](https://www.linkedin.com/in/james-webb-kimmel-346701a8/) Also please comment any thoughts or feedback you may have had while reading through this analysis, I would love to hear what you think. Thanks again!
+Thank you so much for reading this analysis, I hope you enjoyed it. This was just a fun project I wanted to do to showcase the analytical tools and skills I have been learning as part of my coursework in the Data Analytics Accelerator from Data Career Jumpstart. If you would like to check out my other projects, and follow along for more please connect with me on [LinkedIn.](https://www.linkedin.com/in/james-webb-kimmel-346701a8/) Also please comment any thoughts or feedback you may have had while reading through this analysis, I would love to hear what you think. Thanks again!
