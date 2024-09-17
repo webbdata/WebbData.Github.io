@@ -98,7 +98,7 @@ This tool could help countries make resource decisions to maximize the economic 
 
 One of the most effective ways to gain insights from data is to actually be able to "see" it. Obviously, I could see the data in an excel spreadsheets, but our minds are not the best at making sense of 10,000 lines of text and numbers. Tableau is one of the most effective tools for creating useful data visualizations that can help us wrap our heads around the data that is presented. Below is a screenshot of a Tableau dashboard I created to better understand this dataset. I also encourage you to follow this [link](https://public.tableau.com/app/profile/webb.kimmel/viz/ImpactofClimateChangeonAgriculture/ImpactofClimateChangeonAgriculture) to view my interactive dashboard on Tableau Public. I will walk through the insights I found using these visualizations.
 
-[<img src="dashboard.png?raw=true"/>](https://public.tableau.com/app/profile/webb.kimmel/viz/ImpactofClimateChangeonAgriculture/ImpactofClimateChangeonAgriculture) <br>
+[<img src="dashboard2.png?raw=true"/>](https://public.tableau.com/app/profile/webb.kimmel/viz/ImpactofClimateChangeonAgriculture/ImpactofClimateChangeonAgriculture) <br>
 
 These visualizations helped me answer the questions I had when I started this project. The entire dashboard is filtered to show only data for the United States, but this filter can be adjusted to highlight other countries, or all the countries included in the data. <br>
 
