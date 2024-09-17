@@ -1,6 +1,6 @@
-![Impact of Climate Change on Ag](climate_cover.png) <br><br>
-
 # Using Tableau, Excel, and SQL to Analyze Climate and Agricultural Data
+
+![Impact of Climate Change on Ag](climate_cover.png) <br><br>
 
 Climate Change is a growing problem for our planet and has the potential to drastically affect many aspects of our lives. One major concern is how our ability to produce food might change as the climate changes. In this project I took a data set compiling agricultural data with common measures tracking climate change to see what the impact on farming has been so far. To showcase a variety of analytical tools and skills I used a combination of Tableau, Microsoft Excel, and SQL to try to gain insights from this data. I have always been interested in climate science, so this project was a fantastic way to dig into some of the data on this issue, while demonstrating the analysis skills I have been learning as part of the Data Analytics Accelerator course I am taking. 
 
